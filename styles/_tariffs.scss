@@ -1,0 +1,47 @@
+.container.main.tariffs {
+	display: flex;
+	justify-content: flex-start;
+	min-height: calc(100vh - 170px);
+}
+
+.tariffs__list {
+	flex-grow: 1;
+}
+
+.tarif-card.btn-outline-gradinet-1 {
+	max-width: 380px;
+	min-width: 290px;
+	height: 326px;
+	border-radius: 50px;
+	background: transparent;
+	transition: all .3s ease-in-out;
+
+	&:hover {
+		background: var(--gradient1);
+		transform: scale(1.2);
+	}
+
+	&::before {
+		border-radius: 50px;
+		background-color: #1C0A22;
+	}
+
+	&:hover::before {
+		opacity: 1;
+	}
+
+	button:hover {
+		background: #3b2143;
+		cursor: pointer;
+		color: var(--secondary-light);
+	}
+
+}
+
+@media screen and (width <= 1000px) {
+	.tariffs__list > div{
+		flex-direction: column;
+		align-items: center;
+		gap: 1rem;
+	}
+}

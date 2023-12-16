@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Znakomstva | Profile</title>
+    <link rel="stylesheet" href="../styles/main.css">
+</head>
+
+<body class="bg-primary">
+
+
+    <!-- ---------------------Navbar starts ----------------------->
+    <nav class="navbar bg-dark d-flex ai-center jc-center gap-3 h-50">
+        <h1 class="text-white text-16-500">Знакомства по всему миру</h1>
+
+        <div class="d-flex ai-center gap-2">
+            <img src="../assets/images/united-states 1.svg" alt="america">
+            <select class="bg-dark text-white text-16-400">
+                <option>Америка</option>
+                <option>Америка</option>
+            </select>
+        </div>
+
+
+    </nav>
+    <!-- ---------------------Navbar ends--------------------- -->
+    <!-- ---------------Header starts--------------- -->
+    <nav class="navbar2">
+        <ul class="container gap-2 h-full">
+
+            <li class="logo">
+                <a class="text-white d-flex ai-center jc-start gap-2" href="./home.html">
+                    <img src="../assets/images/logo.svg" alt="logo">
+                    <span>Znakomstva.com</span>
+                </a>
+            </li>
+
+            <li class="h-full links">
+                <ul class="h-full gap-4">
+                    <li><a href="person.html">Анкеты</a></li>
+                    <li class="chat-btn"><a>Сообщения</a></li>
+                    <li><a href="tariffs.html">Подписка</a></li>
+                </ul>
+            </li>
+
+            <li class="lang">
+                <select>
+                    <option>
+                        Россия
+                    </option>
+                </select>
+            </li>
+
+            <li class="d-flex ai-center jc-center gap-2">
+
+                <a href="">
+                    <img src="../assets/icons/search.svg" alt="">
+                </a>
+
+                <a href="" class="notification">
+                    <img src="../assets/icons/bell 1.svg" alt="">
+                    <span>123</span>
+                </a>
+
+            </li>
+
+            <li class="profile">
+                <a href="">
+                    <img src="https://images.unsplash.com/photo-1497316730643-415fac54a2af?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8cHJvZmlsZXxlbnwwfHwwfHx8MA%3D%3D"
+                        alt="">
+                    <span>Иван Иванов</span>
+                </a>
+            </li>
+
+            <li id="menu-btn">
+                <img src="../assets/icons/menu.svg" alt="">
+            </li>
+
+        </ul>
+    </nav>
+
+    <nav class="mobile-nav" id="mobile-menu">
+        <ul class="h-full">
+            <li><a href="person.html">Анкеты</a></li>
+            <li class="chat-btn"><a>Сообщения</a></li>
+            <li><a href="tariffs.html">Подписка</a></li>
+            <li>
+                <select>
+                    <option>
+                        Россия
+                    </option>
+                </select>
+            </li>
+        </ul>
+    </nav>
+    <!-- ---------------Header ends--------------- -->
+
+    <main class="container my-4">
+
+
+        <!------------ Register section starts---------- -->
+        <section class="register">
+            <h1 class="text-white">Профиль</h1>
+
+            <form class="register__form d-flex dir-col gap-2 mt-3">
+
+                <div class="mb-5">
+                    <img src="https://avatars.mds.yandex.net/i?id=0ea34c04d2e9a8f0b58c6065cc15d129cec04327-9858823-images-thumbs&n=13" alt="" class="w-full rounded-30" style="height: 400px; object-fit: cover;">
+                    <div class="input-group">
+                        <img src="../assets/icons/camera 1.svg" alt="user">
+                        <input type="text" placeholder="Ваше фото URL">
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <img src="../assets/icons/user 1.svg" alt="user">
+                    <input type="text" placeholder="Ваше имя">
+                </div>
+
+                <div>
+                    <p class="text-link text-14-400">Дата рождения</p>
+
+                    <div class="input-group">
+                        <img src="../assets/icons/user 1.svg" alt="user">
+                        <input type="date">
+                    </div>
+
+                </div>
+
+                <div class="d-flex gap-3">
+                    <button class="btn-outline-gradinet-1 bg-gradient-3 h-70 w-full">
+                        <span>
+                            <img src="../assets/images/man.svg" alt="man">
+                        </span>
+                    </button>
+
+                    <button class="btn-outline-gradinet-1 bg-gradient-3 h-70 w-full">
+                        <span>
+                            <img src="../assets/images/woman.svg" alt="woman">
+                        </span>
+                    </button>
+
+                </div>
+
+                <div class="input-group">
+                    <input type="text" placeholder="Введите Рост">
+                </div>
+                <div class="input-group">
+                    <input type="text" placeholder="Введите Вес">
+                </div>
+                <div class="input-group">
+                    <input type="text" placeholder="Введите Цвет волос">
+                </div>
+                <div class="input-group">
+                    <input type="text" placeholder="Введите Цвет глаз">
+                </div>
+                <div class="input-group">
+                    <input type="text" placeholder="Введите Цель знакомства">
+                </div>
+                <textarea class="bg-secondary text-secondary-light text-16-400 p-3 rounded-30 w-full"
+                    placeholder="Введите О себе" style="height: 200px; resize: none;"></textarea>
+                <div class="input-group">
+                    <img src="../assets/icons/message 1.svg" alt="messageicon">
+                    <input type="text" placeholder="Введите электронную почту">
+                </div>
+
+                <div class="input-group">
+                    <img src="../assets/icons/password 1.svg" alt="pasword-icon">
+                    <input type="text" placeholder="Введите пароль">
+                    <img src="../assets/icons/eye 1.svg" alt="eye-icon">
+                </div>
+
+                <button class="text-white bg-gradient-1 h-70 rounded-lg w-full">Сохранить</button>
+
+            </form>
+
+        </section>
+        <!------------ Register section ends---------- -->
+
+
+
+
+        <footer>
+            <ul>
+                <li><a href="">О нас</a></li>
+                <li><a href="">Поддержка</a></li>
+                <li><a href="">Советы</a></li>
+                <li><a href="">Контакты</a></li>
+                <li><a href="">Правила оплаты</a></li>
+                <li class="ml-auto"><a href="">Политика обработки персональных данных</a></li>
+
+                <li class="ml-5">
+                    <select>
+                        <option value="">RU</option>
+                        <option value="">UZ</option>
+                        <option value="">ENG</option>
+                    </select>
+                </li>
+
+                <li class="ml-5">© Company 2021</li>
+            </ul>
+        </footer>
+    </main>
+
+      <!-- Chat modal starts -->
+  <div class="modal desktop chat-m">
+    <div class="chat-wrapper">
+      <div class="chat-accounts">
+
+        <!-- Chat account card starts -->
+        <div class="chat-account">
+          <img
+            src="https://images.unsplash.com/photo-1701215097228-188d262c1f6b?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw1fHx8ZW58MHx8fHx8"
+            alt="account-image">
+
+          <div>
+            <h2 class="text-white text-14-500">Марина</h2>
+            <p class="text-secondary-light text-16-400">
+              Привет! Как дела?
+            </p>
+          </div>
+
+        </div>
+        <!-- Chat account card ends-->
+        <!-- Chat account card starts -->
+        <div class="chat-account">
+          <img
+            src="https://images.unsplash.com/photo-1701215097228-188d262c1f6b?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw1fHx8ZW58MHx8fHx8"
+            alt="account-image">
+
+          <div>
+            <h2 class="text-white text-14-500">Марина</h2>
+            <p class="text-secondary-light text-16-400">
+              Привет! Как дела?
+            </p>
+          </div>
+
+        </div>
+        <!-- Chat account card ends-->
+        <!-- Chat account card starts -->
+        <div class="chat-account">
+          <img
+            src="https://images.unsplash.com/photo-1701215097228-188d262c1f6b?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw1fHx8ZW58MHx8fHx8"
+            alt="account-image">
+
+          <div>
+            <h2 class="text-white text-14-500">Марина</h2>
+            <p class="text-secondary-light text-16-400">
+              Привет! Как дела?
+            </p>
+          </div>
+
+        </div>
+        <!-- Chat account card ends-->
+        <!-- Chat account card starts -->
+        <div class="chat-account">
+          <img
+            src="https://images.unsplash.com/photo-1701215097228-188d262c1f6b?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw1fHx8ZW58MHx8fHx8"
+            alt="account-image">
+
+          <div>
+            <h2 class="text-white text-14-500">Марина</h2>
+            <p class="text-secondary-light text-16-400">
+              Привет! Как дела?
+            </p>
+          </div>
+
+        </div>
+        <!-- Chat account card ends-->
+
+
+      </div>
+
+      <div class="chat-messages bg-primary h-full">
+
+        <div class="chat-header">
+          <h1 class="text-white text-16-500">Алёна 22</h1>
+        </div>
+
+        <div class="chat-body">
+          <div class="chat-body-wrapper">
+
+            <!-- Chat message item starts-->
+            <div class="chat-message received">
+              <img
+                src="https://images.unsplash.com/photo-1701215097228-188d262c1f6b?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw1fHx8ZW58MHx8fHx8"
+                alt="">
+              <p class="text-16-400 text-white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente
+                omnis, non rerum facere sit sint delectus facilis ipsum, ad pariatur amet nam nesciunt!</p>
+            </div>
+            <!-- Chat message item ends -->
+
+            <!-- Chat message item starts-->
+            <div class="chat-message sent">
+              <img
+                src="https://images.unsplash.com/photo-1701215097228-188d262c1f6b?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw1fHx8ZW58MHx8fHx8"
+                alt="">
+              <p class="text-16-400 text-white">Привет Текст сообщения будет тут</p>
+            </div>
+            <!-- Chat message item ends -->
+            <!-- Chat message item starts-->
+            <div class="chat-message received">
+              <img
+                src="https://images.unsplash.com/photo-1701215097228-188d262c1f6b?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw1fHx8ZW58MHx8fHx8"
+                alt="">
+              <p class="text-16-400 text-white">Привет Текст сообщения будет тут</p>
+            </div>
+            <!-- Chat message item ends -->
+
+            <!-- Chat message item starts-->
+            <div class="chat-message sent">
+              <img
+                src="https://images.unsplash.com/photo-1701215097228-188d262c1f6b?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw1fHx8ZW58MHx8fHx8"
+                alt="">
+              <p class="text-16-400 text-white">Привет Текст сообщения будет тут</p>
+            </div>
+            <!-- Chat message item ends -->
+
+            <!-- Chat message item starts-->
+            <div class="chat-message received">
+              <img
+                src="https://images.unsplash.com/photo-1701215097228-188d262c1f6b?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw1fHx8ZW58MHx8fHx8"
+                alt="">
+              <p class="text-16-400 text-white">Привет Текст сообщения будет тут</p>
+            </div>
+            <!-- Chat message item ends -->
+
+            <!-- Chat message item starts-->
+            <div class="chat-message sent">
+              <img
+                src="https://images.unsplash.com/photo-1701215097228-188d262c1f6b?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw1fHx8ZW58MHx8fHx8"
+                alt="">
+              <p class="text-16-400 text-white">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil, consequatur.
+              </p>
+            </div>
+            <!-- Chat message item ends -->
+          </div>
+        </div>
+
+        <div class="chat-footer w-full">
+
+          <div class="bg-secondary h-50 rounded-lg d-flex jc-start ai-center w-full px-3">
+
+            <input class="h-full bg-transparent w-full text-secondary-light text-16-400" type="text"
+              placeholder="Написать сообщение...">
+
+            <img src="../assets/icons/send 1.svg" alt="">
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+  <!-- Chat modal ends -->
+
+  <!-- Mobile Chat Modal starts -->
+  <div class="modal mobile-chat-modal chat-m">
+
+    <div class="mobile-chat-body contacts">
+
+      <div class="mobile-chat-header d-flex ai-center jc-start gap-2">
+        <img src="../assets/icons/left-arrow.svg" alt="">
+        <h2 class="text-white">Сообщения</h2>
+      </div>
+
+      <div class="mobile-chat-content">
+        <!-- Chat account card starts -->
+        <div class="chat-account">
+          <img
+            src="https://images.unsplash.com/photo-1701215097228-188d262c1f6b?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw1fHx8ZW58MHx8fHx8"
+            alt="account-image">
+
+          <div>
+            <h2 class="text-white text-14-500">Марина</h2>
+            <p class="text-secondary-light text-16-400">
+              Привет! Как дела?
+            </p>
+          </div>
+
+        </div>
+        <!-- Chat account card ends-->
+        <!-- Chat account card starts -->
+        <div class="chat-account">
+          <img
+            src="https://images.unsplash.com/photo-1701215097228-188d262c1f6b?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw1fHx8ZW58MHx8fHx8"
+            alt="account-image">
+
+          <div>
+            <h2 class="text-white text-14-500">Марина</h2>
+            <p class="text-secondary-light text-16-400">
+              Привет! Как дела?
+            </p>
+          </div>
+
+        </div>
+        <!-- Chat account card ends-->
+        <!-- Chat account card starts -->
+        <div class="chat-account">
+          <img
+            src="https://images.unsplash.com/photo-1701215097228-188d262c1f6b?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw1fHx8ZW58MHx8fHx8"
+            alt="account-image">
+
+          <div>
+            <h2 class="text-white text-14-500">Марина</h2>
+            <p class="text-secondary-light text-16-400">
+              Привет! Как дела?
+            </p>
+          </div>
+
+        </div>
+        <!-- Chat account card ends-->
+        <!-- Chat account card starts -->
+        <div class="chat-account">
+          <img
+            src="https://images.unsplash.com/photo-1701215097228-188d262c1f6b?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw1fHx8ZW58MHx8fHx8"
+            alt="account-image">
+
+          <div>
+            <h2 class="text-white text-14-500">Марина</h2>
+            <p class="text-secondary-light text-16-400">
+              Привет! Как дела?
+            </p>
+          </div>
+
+        </div>
+        <!-- Chat account card ends-->
+        <!-- Chat account card starts -->
+        <div class="chat-account">
+          <img
+            src="https://images.unsplash.com/photo-1701215097228-188d262c1f6b?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw1fHx8ZW58MHx8fHx8"
+            alt="account-image">
+
+          <div>
+            <h2 class="text-white text-14-500">Марина</h2>
+            <p class="text-secondary-light text-16-400">
+              Привет! Как дела?
+            </p>
+          </div>
+
+        </div>
+        <!-- Chat account card ends-->
+        <!-- Chat account card starts -->
+        <div class="chat-account">
+          <img
+            src="https://images.unsplash.com/photo-1701215097228-188d262c1f6b?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw1fHx8ZW58MHx8fHx8"
+            alt="account-image">
+
+          <div>
+            <h2 class="text-white text-14-500">Марина</h2>
+            <p class="text-secondary-light text-16-400">
+              Привет! Как дела?
+            </p>
+          </div>
+
+        </div>
+        <!-- Chat account card ends-->
+        <!-- Chat account card starts -->
+        <div class="chat-account">
+          <img
+            src="https://images.unsplash.com/photo-1701215097228-188d262c1f6b?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw1fHx8ZW58MHx8fHx8"
+            alt="account-image">
+
+          <div>
+            <h2 class="text-white text-14-500">Марина</h2>
+            <p class="text-secondary-light text-16-400">
+              Привет! Как дела?
+            </p>
+          </div>
+
+        </div>
+        <!-- Chat account card ends-->
+      </div>
+
+    </div>
+
+
+    <div class="mobile-chat-body messages open">
+      <div class="mobile-chat-header d-flex ai-center jc-start gap-2">
+        <img src="../assets/icons/left-arrow.svg" alt="">
+        <h2 class="text-white">Марина</h2>
+      </div>
+
+      <div class="mobile-chat-content d-flex ai-center">
+              <div class="chat-messages bg-primary h-full">
+               <div class="chat-body">
+                  <div class="chat-body-wrapper">
+              
+                    <!-- Chat message item starts-->
+                    <div class="chat-message received">
+                      <img
+                        src="https://images.unsplash.com/photo-1701215097228-188d262c1f6b?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw1fHx8ZW58MHx8fHx8"
+                        alt="">
+                      <p class="text-16-400 text-white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente
+                        omnis, non rerum facere sit sint delectus facilis ipsum, ad pariatur amet nam nesciunt!</p>
+                    </div>
+                    <!-- Chat message item ends -->
+              
+                    <!-- Chat message item starts-->
+                    <div class="chat-message sent">
+                      <img
+                        src="https://images.unsplash.com/photo-1701215097228-188d262c1f6b?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw1fHx8ZW58MHx8fHx8"
+                        alt="">
+                      <p class="text-16-400 text-white">Привет Текст сообщения будет тут</p>
+                    </div>
+                    <!-- Chat message item ends -->
+                    <!-- Chat message item starts-->
+                    <div class="chat-message received">
+                      <img
+                        src="https://images.unsplash.com/photo-1701215097228-188d262c1f6b?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw1fHx8ZW58MHx8fHx8"
+                        alt="">
+                      <p class="text-16-400 text-white">Привет Текст сообщения будет тут</p>
+                    </div>
+                    <!-- Chat message item ends -->
+              
+                    <!-- Chat message item starts-->
+                    <div class="chat-message sent">
+                      <img
+                        src="https://images.unsplash.com/photo-1701215097228-188d262c1f6b?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw1fHx8ZW58MHx8fHx8"
+                        alt="">
+                      <p class="text-16-400 text-white">Привет Текст сообщения будет тут</p>
+                    </div>
+                    <!-- Chat message item ends -->
+              
+                    <!-- Chat message item starts-->
+                    <div class="chat-message received">
+                      <img
+                        src="https://images.unsplash.com/photo-1701215097228-188d262c1f6b?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw1fHx8ZW58MHx8fHx8"
+                        alt="">
+                      <p class="text-16-400 text-white">Привет Текст сообщения будет тут</p>
+                    </div>
+                    <!-- Chat message item ends -->
+              
+                    <!-- Chat message item starts-->
+                    <div class="chat-message sent">
+                      <img
+                        src="https://images.unsplash.com/photo-1701215097228-188d262c1f6b?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw1fHx8ZW58MHx8fHx8"
+                        alt="">
+                      <p class="text-16-400 text-white">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil, consequatur.
+                      </p>
+                    </div>
+                    <!-- Chat message item ends -->
+                  </div>
+                </div>
+              
+                <div class="chat-footer w-full">
+              
+                  <div class="bg-secondary h-50 rounded-lg d-flex jc-start ai-center w-full px-3">
+              
+                    <input class="h-full bg-transparent w-full text-secondary-light text-16-400" type="text"
+                      placeholder="Написать сообщение...">
+              
+                    <img src="../assets/icons/send 1.svg" alt="">
+                  </div>
+              
+                </div>
+              
+              </div>
+      </div>
+    </div>
+
+
+
+  </div>
+  <!-- Mobile Chat Modal ends -->
+<script src="../js/ui.js"></script>
+</body>
+
+</html>

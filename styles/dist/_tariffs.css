@@ -1,0 +1,9 @@
+.container.main.tariffs {
+  display: flex;
+  border: 1px solid white;
+  min-height: calc(100vh - 170px );
+}
+
+.tariffs__list {
+  flex-grow: 1;
+}

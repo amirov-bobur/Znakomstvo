@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Znakomstva | Login</title>
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body class="bg-primary">
+  <img src="assets/images/left.svg" class="left-img bottom-0" alt="left">
+  <img src="assets/images/right.svg" class="right-img" alt="right">
+
+  <!-- ---------------------Navbar starts ----------------------->
+  <nav class="navbar bg-dark d-flex ai-center jc-center gap-3 h-50">
+    <h1 class="text-white text-16-500">Знакомства по всему миру</h1>
+
+    <div class="d-flex ai-center gap-2">
+      <img src="assets/images/united-states 1.svg" alt="america">
+      <select class="bg-dark text-white text-16-400">
+        <option>Америка</option>
+        <option>Америка</option>
+      </select>
+    </div>
+
+
+  </nav>
+  <!-- ---------------------Navbar ends--------------------- -->
+
+  <main class="container">
+    <!-- ---------------Header starts--------------- -->
+    <header class="header w-full  my-4">
+      <ul class="d-flex ai-center  dir-row jc-end h-full gap-4">
+        <li class="mr-auto">
+          <a class="text-white d-flex ai-center jc-start gap-2" href="./pages/home.html">
+            <img src="assets/images/logo.svg" alt="logo">
+            <span>Znakomstva.com</span>
+          </a>
+        </li>
+
+        <li><a href="" class="text-white text-16-400">Впервые здесь?</a></li>
+        <li><a href="pages/register.html" class="btn-outline-gradinet-1 h-50"><span>Регистрация</span></a></li>
+      </ul>
+
+    </header>
+    <!-- ---------------Header ends--------------- -->
+    <div class="login d-flex gap-3 dir-col">
+      <h1 class="text-white">Знакомства без преград</h1>
+
+      <p class="text-16-400 text-white">
+        Для современного мира сплочённость команды профессионалов однозначно фиксирует
+        необходимость системы обучения кадров,
+        соответствующей насущным потребностям.
+      </p>
+
+      <form class="login__form d-flex dir-col gap-3 ">
+
+        <div class="input-group">
+          <img src="assets/icons/message 1.svg" alt="messageicon">
+          <input type="text" placeholder="Введите электронную почту">
+        </div>
+
+        <div class="input-group">
+          <img src="assets/icons/password 1.svg" alt="pasword-icon">
+          <input type="text" placeholder="Введите пароль">
+          <img src="assets/icons/eye 1.svg" alt="eye-icon">
+        </div>
+
+        <a href="pages/home.html" class="d-flex ai-center jc-center text-white bg-gradient-1 h-70 rounded-lg">Войти</a>
+
+        <button type="button" id="forget-password-btn" class="text-link text-14-400 bg-transparent">Я не помню пароль</button>
+
+      </form>
+    </div>
+
+    <footer>
+      <ul>
+        <li><a href="">О нас</a></li>
+        <li><a href="">Поддержка</a></li>
+        <li><a href="">Советы</a></li>
+        <li><a href="">Контакты</a></li>
+        <li><a href="">Правила оплаты</a></li>
+        <li class="ml-auto"><a href="">Политика обработки персональных данных</a></li>
+
+        <li class="ml-5">
+          <select>
+            <option value="">RU</option>
+            <option value="">UZ</option>
+            <option value="">ENG</option>
+          </select>
+        </li>
+
+        <li class="ml-5">© Company 2021</li>
+      </ul>
+    </footer>
+  </main>
+
+
+  <!-- Modal starts -->
+  <div class="modal forget-password-modal" id="forget-password-modal">
+
+    <div class="wrapper text-white">
+      <h1>Я не помню пароль</h1>
+      <p class="text-16-400 text-secondary-light">Введи свой email и мы вышлем тебе инструкции по изменению пароля</p>
+
+      <div class="d-flex dir-col gap-2 my-2">
+
+        <div class="input-group">
+          <img src="assets/icons/message 1.svg" alt="messageicon">
+          <input type="text" placeholder="Введите электронную почту">
+        </div>
+
+        <button id="chp" class="text-white bg-gradient-1 h-70 rounded-lg w-full">Запросить новый пароль</button>
+
+      </div>
+
+
+    </div>
+
+  </div>
+  <!-- Modal ends -->
+
+<script src="./js/index.js"></script>
+</body>
+
+</html>
